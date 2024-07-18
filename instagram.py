@@ -16,7 +16,7 @@ from Core.Browser import Browser
 
 class Instagram(TorManager,Browser):
 	def __init__(self,username,wordlist):
-		self.username = username
+		self.oumaira_jan47 = username
 		self.wordlist = wordlist
 		self.lock = threading.Lock()
 
